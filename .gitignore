@@ -1,0 +1,26 @@
+# Environment variables (CRITICAL)
+.env
+.env.local
+.env.production
+
+# Firebase / Google Credentials
+*.pem
+*-adminsdk-*.json
+serviceAccountKey.json
+firebase-admin-key.json
+
+# Dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
